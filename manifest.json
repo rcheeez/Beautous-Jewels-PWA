@@ -1,0 +1,21 @@
+{
+    "name": "Beautous Jewels",
+    "short_name":"BJewels",
+    "start_url":".",
+    "background_color": "#b3e0ff",
+    "theme_color": "#e6f5ff",
+    "display":"standalone",
+    "icons" : [
+        {
+            "src": "./images/beautous-jewels-logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+
+        {
+            "src": "./images/beautous-jewels-icon-512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ]
+}

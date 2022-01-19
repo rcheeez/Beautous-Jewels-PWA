@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* CUSTOM FONTS
+--------------------------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: "Monda Regular";
+    src: url(../fonts/Monda-Regular.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Monda Bold";
+    src: url(../fonts/Monda-Bold.ttf) format("truetype");
+    font-display: swap;
+  }
+  
+  @font-face {
+      font-family: "Kadwa-Bold";
+      src: url(../fonts/Kadwa-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+      font-family: "Kadwa Regular";
+      src: url(../fonts/Kadwa-Regular.ttf) format("truetype");
+  }
+  /* font classes */
+  
+  .font-regular {
+    font-family: "Monda Regular";
+  }
+  
+  .font-bold {
+    font-family: "Monda Bold";
+  }
+
+  .font-kadwa-regular{
+      font-family: "Kadwa-Regular";
+  }
+
+  .font-kadwa-bold {
+      font-family: "Kadwa Bold";
+  }
+
+nav{
+    border: 1px solid black;
+}
+
+.logo-img {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
